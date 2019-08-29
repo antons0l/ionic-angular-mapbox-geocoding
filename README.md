@@ -1,5 +1,9 @@
 # Ionic/Angular mapbox geocoding address lookup
-This is an Ionic/Angular project showcasing an address lookup implementation powered by Mapbox geocoding API.
+This is an Ionic/Angular project showcasing an address lookup implementation powered by Mapbox Geocoding API.
+
+More information about Mapbox Geocoding API can be found at:
+https://docs.mapbox.com/help/how-mapbox-works/geocoding/
+
 ![](demo.gif)
 
 ## Installation
