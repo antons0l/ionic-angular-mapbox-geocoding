@@ -1,0 +1,19 @@
+<ion-content>
+<ion-grid>
+    <ion-row>
+      <ion-col offset=4 size=4>
+        <div style="position: relative">
+          <ion-searchbar debounce=500 (ionChange)="search($event)" [value]="selectedAddress"></ion-searchbar>
+          <div style="position: absolute; width: 100%; z-index: 999;">
+            <ion-list lines="none" *ngIf="addresses.length > 0">
+              <ion-item button *ngFor="let address of addresses" (click)="onSelect(address)">
+                <ion-icon name="pin"></ion-icon>
+                {{ address }}
+              </ion-item>
+            </ion-list>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
