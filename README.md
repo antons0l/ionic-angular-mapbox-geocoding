@@ -1,7 +1,8 @@
 # Ionic/Angular mapbox geocoding address lookup
-This 
+This is an Ionic/Angular project showcasing an address lookup implementation powered by Mapbox geocoding API.
+![](demo.gif)
 
-## Getting started
+## Installation
 
 In the project folder, type:
 ```
@@ -13,7 +14,7 @@ If you don't have Ionic, install it:
 npm install -g ionic
 ```
 
-## Running
+## Usage
 
 In the project folder, type:
 ```
