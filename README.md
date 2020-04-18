@@ -19,6 +19,7 @@ If you don't have Ionic, install it:
 ```
 npm install -g ionic
 ```
+You need to create a Mapbox account and get your access token. Set it in environments/environment.ts file.
 
 ## Usage
 
